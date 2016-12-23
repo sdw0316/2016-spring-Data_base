@@ -1,0 +1,116 @@
+    body{
+      margin:0px;
+    }
+    #header{
+      background-color: #222;
+      width:100%;
+      position:fixed;
+    }
+    #header > .inner div{
+      border:0px;
+      line-height: 50px;
+      vertical-align: middle;
+      height:50px;
+      color: #FFF;
+      float:left;
+    }
+    .logo > img{
+      margin-top:5px;
+      margin-left:5px;
+      height: 40px;
+      cursor:pointer;
+    }
+    .logout{
+      position: absolute;
+      width:80px;
+      right: 0px;
+      text-align:center;
+      cursor:pointer;
+    }
+    .admin{
+      position: absolute;
+      right: 300px;
+    }
+    .admin:hover{
+      color:#BBB;
+      background-color:#111;
+      cursor:pointer;
+    }
+    .info{
+      position: absolute;
+      right: 80px;
+    }
+    .logout:hover{
+      color:#BBB;
+      background-color:#111;
+    }
+    input{
+      width:500px;
+    }
+    #search_btn{
+      background-color: #AAA;
+      width:200px;
+    }
+    #content{
+      padding:30px;
+      min-height: 700px;
+    }
+    #footer{
+      clear:both;
+      width:100%;
+    }
+    #footer > .inner{
+      background-color: #FFF;
+      border-top:1px solid #CCC;
+      margin:0px;
+      width:100%;
+      text-align: center;
+      color : #222;
+    }
+    #footer > .inner > .copyright{
+      height:70px;
+      line-height: 70px;
+    }
+    .left{
+      margin: 20px 30px;
+      float:left;
+      width:800px;
+      height:100%;
+    }
+    .right{
+      margin: 20px 0px;
+      float:left; 
+      width:300px;
+      height:100%;
+    }
+    .box{
+      border: 1px solid #CCC;
+      border-radius: 5px;
+      margin: 20px 30px; 
+      background-color: #FFF;
+      text-align: left;
+      padding: 0px 20px;
+    }
+    .right>.box{
+      padding-bottom: 30px;
+    }
+    .right button{
+      width:198px;
+      margin:0px;
+    }
+    .right>.box>div{
+      margin-top:30px;
+    }
+    .name_wrap{
+      font-weight: bold;
+    }
+    .info_wrap{
+      cursor: pointer;
+    }
+    .info_wrap, .logout_wrap{
+      padding-top: 30px;
+      border-top: 1px solid #CCC;
+    }
+    .result{
+      padding-bottom: 20px;
+    }
